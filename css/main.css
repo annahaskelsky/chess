@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+table {
+    border: 15px solid #824014;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: all 0.2s;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background-color: #e5d3b4;
+}
+
+button:hover {
+    padding: 10px 30px;
+    background-color: #824014;
+    color: white;
+}
+
+.dark {
+    background-color: #824014;
+}
+
+.light {
+    background-color: #e5d3b4;
+}
+
+.selected {
+    outline: 5px solid orange;
+}
+
+.mark {
+    background-color: #fb8721;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.game-board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.4em;
+}
